@@ -1,0 +1,182 @@
+/* ========== */
+/* = Blocks
+= */
+/* ========== */
+
+.block h2 {
+	margin: 0;
+}
+
+.block h3 {
+	font-size: 15px;
+}
+
+
+.block p {
+	font-size: 12px;
+}
+
+.block.intro-block p {
+	font-size: 14px;
+}
+
+
+/* Sidebar */
+#sidebar .block {
+	border-bottom: 1px #666 solid;
+	min-height: 250px;
+}
+
+#sidebar .block h2 {
+	margin: 0;
+}
+
+#sidebar .border-bottom-none {
+	border-bottom: none;
+}
+
+
+/* Nodeblocks */
+.block-nodeblock .content .field-field-image {
+	margin-bottom: 20px;
+	margin-left: 0;
+}
+
+.block-nodeblock .content .field-field-read-more-link{
+	font-size: 12px;
+	margin: 0 0 1em 30px;
+} 
+
+
+
+/* News Block */
+
+.news-block a:link,
+.news-block a:visited,
+.news-block a:active {
+	color: #000;
+	text-decoration: none;
+}
+
+.news-block a:hover {
+	text-decoration: underline;
+}
+
+.block.news-block ul {
+	margin: 0 30px 0 30px;
+	padding: 0;
+}
+
+.news-block li {
+	margin: 0 0 1em 0;
+	list-style: none;
+}
+
+.news-block ul a {
+	font-size: 108%;
+}
+
+#sidebar .news-archive-block p {
+	margin-bottom: 0;
+}
+
+
+/* Bottom Left*/
+#content_home .block {
+	width: 320px;
+}
+
+
+/* Slideshow block */
+#content_home .block.carousel-block,
+#content_home .block.multimedia-block,
+#content_home .block.slideshow-block {
+	width: 639px;
+}
+
+#content_home .block.multimedia-block,
+#content_home .block.slideshow-block {
+	background: transparent;
+}
+
+#content_home .block.carousel-block {
+	background: #FFF;
+}
+
+
+/* Research Pipelines & Faculty Spotlight */
+.research-pipelines-block,
+.faculty-spotlight-block {
+	float: left;
+}
+
+
+
+
+.research-pipelines-block h3,
+.faculty-spotlight-block h3 {
+	margin: 20px 30px 10px 30px;
+}
+
+
+/* Bottom-Right Region */
+
+#bottom-right .news-block {
+	overflow: hidden;
+	height: 226px;
+	border-bottom: 1px solid #666;
+}
+
+
+#bottom-right .news-block p,
+#bottom-right .upcoming-events-block p {
+	margin: 0 0 0 30px;
+}
+
+/*News Archive*/
+
+#sidebar .news-archive-block h3 {
+	font-weight: normal;
+	margin: 0 30px 1em 30px;
+}
+
+#sidebar .news-archive-block h3 a {
+	font-size: 12px;
+}
+
+
+/* Search*/
+.block-search {
+	float: right;
+	height: 25px;
+	margin: 38px 0 0 0;
+}
+
+#sidebar .block-search {
+	min-height: 50px;
+}
+
+#edit-search-block-form-1-wrapper {
+	margin-right: 6px;
+}
+
+.block-search #edit-search-block-form-1 {
+	width: 160px;
+	height: 18px;
+	border: 1px solid #000;
+}
+
+#search-block-form .form-submit {
+	background-color: #000;
+	border: none;
+	color: #FFF;
+	height: 22px;
+	padding: 2px 6px;
+	width: 80px;
+}
+
+#bottom-right h3 {
+	font-weight: normal;
+	margin: 0 30px 1em 30px;
+}
+

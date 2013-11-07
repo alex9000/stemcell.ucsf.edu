@@ -1,0 +1,48 @@
+/* ===================== */
+/* = Print Style Sheet = */
+/* ===================== */
+
+#banner,
+#header,
+#slogan,
+#header-region,
+div.nav,
+nav,
+.not-front #sidebar,
+.not-front #footer,
+.field-field-image,
+.view-slideshow-2,
+h2 img /*hide image on faculty spotlight*/ {
+	display: none;
+}
+
+
+body.not-front {
+	background: #FFF;
+	font-size: 12pt;
+}
+
+.not-front #wrapper {
+	margin: 0 auto;
+	width: 95%;
+}
+
+.not-front #content_home {
+	border: 0;
+}
+
+.not-front #top #main {
+	width: auto;
+}
+
+.not-front #content h1 {
+	border: none;
+	font-size: 14pt;
+	font-weight: bold;
+	padding: 5px 0 1em 30px;
+}
+
+h2.faculty-spotlight {
+	margin-left: 30px;
+}
+

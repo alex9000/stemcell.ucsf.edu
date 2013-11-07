@@ -1,0 +1,272 @@
+#content h1,
+.block h2 {
+	background: url('../images/sprites.gif') 10px -106px no-repeat;
+	border-bottom: 1px solid #666;
+	clear: both;
+	font-size: 13px;
+	font-weight: 400;
+	padding: 5px 0 5px 30px;
+}
+
+
+/* Homepage Carousel */
+
+.carousel-block {
+	border-bottom: 1px solid #666;
+}
+
+.carousel-block .views-field-field-slideshow-image-fid {
+	float: left;
+	margin: 0 30px 0 0;
+}
+
+.carousel-block .views-field-title h3 {
+	padding: 20px 0 10px 30px;
+}
+
+.carousel-block .view-slideshow {
+	position: relative;
+	z-index: 1;
+}
+
+.carousel-block .views-slideshow-controls-bottom {
+	left: 375px;
+	position: absolute;
+	top: 160px;
+	z-index: 10;
+}
+
+ul.views_slideshow_singleframe_pager {
+	margin: 0 auto;
+}
+
+.carousel-block ul.views_slideshow_singleframe_pager li {
+	list-style-type: none;
+	float: left;
+	margin-right: 15px;
+}
+
+
+.carousel-block li.pager-item a {
+	background: url("../images/sprites.gif") 0 -27px no-repeat;
+	display: block;
+	height: 17px;
+	text-decoration: none;
+	text-indent: -2000px;
+	width: 17px;
+}
+
+.carousel-block li.pager-item.activeSlide a {
+	background: url("../images/sprites.gif") 0 0 no-repeat;
+}
+
+
+/* Slideshow */
+
+.slideshow-block .views-slideshow-controls-bottom {
+	margin: 1px 1px 0 1px;
+	background: #F1F1F1;
+}
+
+.slideshow-block .views_slideshow_controls {
+	float: left;
+	background: #FFF;
+	margin: 0;
+}
+
+
+.slideshow-block .views_slideshow_controls a.views_slideshow_previous,
+.slideshow-block .views_slideshow_controls a.views_slideshow_next,
+.slideshow-block .views_slideshow_controls a.views_slideshow_pause,
+.slideshow-block .views_slideshow_controls a.views_slideshow_play {
+	background-image: url(../images/slideshow_controls.png);
+	display: inline;
+	float: left;
+	height: 22px;
+	margin: 0 2px 0 0;
+	text-indent: -999px;
+	width: 21px;
+}
+
+.slideshow-block .views_slideshow_controls a.views_slideshow_previous {
+	background-position: 0 0;
+}
+
+.slideshow-block .views_slideshow_controls a:hover.views_slideshow_previous {
+	background-position: 0 -23px;
+}
+
+.slideshow-block .views_slideshow_controls a.views_slideshow_pause {
+	background-position: 0 -46px;
+}
+
+.slideshow-block .views_slideshow_controls a:hover.views_slideshow_pause {
+	background-position: 0 -69px;
+}
+
+.slideshow-block .views_slideshow_controls a.views_slideshow_play {
+	background-position: 0 -92px;
+}
+
+.slideshow-block .views_slideshow_controls a:hover.views_slideshow_play {
+	background-position: 0 -115px;
+}
+
+.slideshow-block .views_slideshow_controls a.views_slideshow_next {
+	background-position: 0 -138px;
+}
+
+.slideshow-block .views_slideshow_controls a:hover.views_slideshow_next {
+	background-position: 0 -161px;
+}
+
+.slideshow-block .views_slideshow_image_count {
+	color: #646464;
+	float: left;
+	font-size: 12px;
+	height: 22px;
+	line-height: 24px;
+	margin: 0;
+	padding: 0 0 0 10px;
+}
+
+/* Video Page*/
+
+.page-videos #sidebar {
+	display: none;
+}
+
+.page-videos #top #main {
+	width: 100%;
+}
+
+.page-videos #content_home {
+	background-image: none;
+}
+
+.page-videos .view-video-page .view-content .row {
+	border-bottom: #666 1px solid;
+}
+
+.page-videos .view-video-page .view-content .row.last {
+	border-bottom: none;
+}
+
+.view-video-page div.emvideo {
+	float: left;
+}
+
+.page-videos object {
+	vertical-align: top !important;
+}
+
+#main .view-video-page .body {
+/* border: 1px solid #F00;
+*/ width: 319px;
+float: left;
+}
+
+#main .view-video-page .body p {
+	margin: 1em 30px;
+}
+
+/*Newsletter*/
+.view-Newsletter .view-content {
+	padding: 30px;
+}
+
+.view-Newsletter .view-content a {
+	display: block;
+	float: left;
+	margin-right: 30px;
+}
+
+.view-Newsletter h3 {
+	margin-bottom: 1em;
+}
+
+.view-Newsletter .view-content h3 a {
+	float: none;
+	display: inline;
+}
+
+.view-Newsletter a:link,
+.view-Newsletter a:visited,
+.view-Newsletter a:hover,
+.view-Newsletter a:active {
+	text-decoration: underline;
+	color: #666;
+}
+
+.view-Newsletter a:hover {
+	color: #999;
+}
+
+
+/* Faculty List by Subject */
+
+.faculty-by-subject-block #accordion {
+	margin: 10px 0 0 14px;
+	width: 294px;
+}
+
+.faculty-by-subject-block #accordion h3 {
+	background: #e5e0da;
+	color: #9E9791;
+	height: 30px;
+	line-height: 30px;
+	margin: 1px 0 1px 0;
+	padding-left: 15px;
+}
+
+.faculty-by-subject-block #accordion h3.selected {
+	background: #72afb6;
+	color: #FFF;
+}
+
+.faculty-by-subject-block #accordion h3.hover {
+	background: #ddeeee;
+	color: #FFF;
+}
+
+.faculty-by-subject-block #accordion h3.hover.selected {
+	background: #72afb6;
+}
+
+.faculty-by-subject-block #accordion .faculty-list-names {
+	background: #ddeeee;
+	margin: 0 0 0 0;
+	padding: 20px 0 1em 15px;
+}
+
+.faculty-by-subject-block #accordion .faculty-list-names li {
+	margin: 0 15px 1em 0;
+	list-style-type: none;
+}
+
+
+/* Faculty List Tiers */
+#sidebar-faculty-list li {
+	clear: left;
+	list-style-type: none;
+}
+
+#sidebar-faculty-list li ul li {
+	clear: none;
+	float: left;
+}
+
+#sidebar-faculty-list ul li {
+	list-style-type: none;
+	float: left;
+}
+
+#sidebar-faculty-list div ul li,
+#sidebar-faculty-list div ul {
+	clear: left;
+}
+
+/* Hide View Admin Links in Faculty List Sidebar */
+.faculty-list-view .views-admin-links {
+	display: none;
+}

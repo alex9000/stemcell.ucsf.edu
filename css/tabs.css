@@ -1,0 +1,103 @@
+/* `Tabbed Links
+----------------------------------------------------------------------------------------------------*/
+
+#faculty-alpha-container {
+	margin: 10px 0 0 14px;
+	width: 294px;
+}
+
+.faculty-list-block .tabs {
+	background-color: #FFF;
+	border-bottom: none;
+	margin: 0;
+	overflow: hidden;
+	padding: 0;
+}
+
+.faculty-list-block .tabs.selected {
+	border-bottom: 4px solid #72afb6;
+	height: 37px;
+}
+
+.faculty-list-block .tabs li {
+	background-color: #FFF;
+	display: inline;
+	float: left;
+	line-height: 36px;
+	margin: 0;
+	text-align: center;
+	width: 42px;
+}
+
+.faculty-list-block .tabs li a {
+	background-color: #E5E0DA;
+	display: block;
+	float: none;
+	height: 34px;
+	margin: 1px;
+	text-decoration: none;
+	z-index: 10;
+}
+
+#faculty-alpha-container .tabs a:hover {
+	background-color: #ddeeee;
+	border-bottom: none;
+	color: #fff;
+	margin-bottom: 0;
+}
+
+.faculty-list-block .tabs a:active {
+	background-color: #72afb6;
+}
+
+.faculty-list-block .tabs li a.first {
+	margin-left: 0;
+}
+
+.faculty-list-block .tabs li a.last {
+	margin-right: 0;
+}
+
+.faculty-list-block .tabs a.current,
+.faculty-list-block .tabs a.current:hover {
+	background-color: #72afb6;
+	color: #FFF;
+	height: 36px;
+}
+
+#faculty-alpha-container .tabs a.current:hover {
+	background-color: #72afb6;
+}
+
+
+/* For IE6. */
+* html .faculty-list-block .tabs a {
+	height: 1%;
+}
+
+* html .faculty-list-block .tabs li {
+	line-height: 34px;
+}
+
+/* `Content Area
+----------------------------------------------------------------------------------------------------*/
+
+.faculty-list-block .tab_content_wrap {
+	background: #ddeeee;
+	border-bottom: 1px solid #FFF;
+	padding: 0 0 0 0;
+}
+
+.faculty-list-block .tab_content ul {
+	margin: 0 0 0 0;
+	padding: 20px 0 4px 20px;
+}
+
+.faculty-list-block .tab_content ul li {
+	list-style-type: none;
+	margin-bottom: 16px;
+}
+
+.faculty-list-block .tab_content ul li a {
+	text-decoration: underline;
+}

@@ -1,0 +1,27 @@
+name = stemcell.ucsf.edu
+description = Theme for UCSF Stemcell Center
+core = 6.x
+engine = phptemplate
+stylesheets[all][] = css/style.css
+stylesheets[all][] = css/blocks.css
+stylesheets[all][] = css/views.css
+stylesheets[all][] = css/layout.css
+stylesheets[all][] = css/tabs.css
+stylesheets[print][] = css/print.css
+
+; Set the conditional stylesheets that are processed by IE.
+conditional-stylesheets[if lt IE 8][all][] = css/ie.css
+conditional-stylesheets[if IE][print][] = css/ie-print.css
+
+regions[header] = Header
+regions[nicemenus] = Nice menus
+regions[top_content] = Top Content
+regions[content] = Main Content
+regions[right] = Right sidebar
+regions[bottom_left] = Bottom Left
+regions[bottom_right] = Bottom Right
+regions[footer] = Footer
+
+scripts[] = js/jquery.cookie.js
+scripts[] = js/scripts.js
+

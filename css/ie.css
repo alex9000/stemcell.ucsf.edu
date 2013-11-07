@@ -1,0 +1,49 @@
+/* ============================== */
+/* = Stylesheet for IE 6 & IE 7 = */
+/* ============================== */
+
+/* Slideshow */
+.slideshow-block .views_slideshow_image_count {
+	line-height: 22px;
+}
+
+/* Over-ride height added by views slideshow */
+.carousel-block .view-slideshow {
+	height: 199px !important;
+	overflow: hidden;
+}
+
+
+.block p {
+	font-size: 86%;
+}
+
+.block-nodeblock .content .field-field-read-more-link{
+	font-size: 86%;
+}
+
+.block.intro-block p {
+	100%;
+}
+
+.block h3 {
+	font-size: 107%;
+}
+
+
+#faculty-list-names li.bio {
+	font-size: 1.23em;
+}
+
+.search-results dt {
+	font-size: 100%;
+}
+
+#content #node-77 .content h2 {
+	margin-bottom: 2em;
+}
+
+.node-type-research #main img {
+	display: inline; /* fixes double-margin bug in IE6*/
+}
+

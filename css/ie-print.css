@@ -1,0 +1,13 @@
+/* =================== */
+/* = IE Print Styles = */
+/* =================== */
+
+
+.not-front #wrapper {
+	margin: 0 0;
+}
+
+.not-front #content_home {
+	border: 0;
+	width: 650px;
+}

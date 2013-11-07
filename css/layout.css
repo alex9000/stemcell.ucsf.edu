@@ -1,0 +1,59 @@
+
+#wrapper {
+	margin: auto;
+	width: 960px;
+}
+
+#content_home {
+	background: #fff url(../images/background_bar.jpg) 3px 0 repeat-y;	
+	border: 1px solid #666;
+	float: left;
+	margin: 25px 0 15px 0;
+	width: 960px;
+
+}
+
+/*Top Section */
+#top {
+	float: left;
+}
+
+
+#top #main {
+	float: left;
+	width: 640px;
+}
+
+#content .node .content .field-field-image,
+#content .content .view-slideshow-2 {
+	margin-bottom: 20px;
+}
+
+#sidebar {
+	float: right;
+	width: 319px;
+}
+
+#bottom {
+	background: transparent url(../images/background_bar_bottom.jpg) 0 10px repeat-y;
+	border-top: 1px solid #666;
+	clear: both;
+	width: 960px;
+}
+
+.not-front #bottom {
+	display: none;
+}
+
+#bottom-left {
+	float: left;
+	width: 640px;
+}
+
+#bottom-right {
+	float: left;
+	width: 319px;
+}
+
+
+

@@ -1,0 +1,11 @@
+/* =================== */
+/* = Preload Styles = */
+/* =================== */
+
+.faculty-list-block #faculty-alpha-container .tab_content,
+.faculty-by-subject-container,
+#faculty-alpha-container
+{
+	display: none;
+}
+
