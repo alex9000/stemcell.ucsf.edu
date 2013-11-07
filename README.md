@@ -1,4 +1,6 @@
 stemcell.ucsf.edu
 =================
 
-Theme for UCSF Stem Cell Center
+Drupal 6 theme for UCSF Stem Cell Center 
+http://stemcell.ucsf.edu/
+ 
